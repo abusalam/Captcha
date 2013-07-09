@@ -39,11 +39,10 @@
  * @link http://www.phpcaptcha.org/Securimage_Docs/ Online Documentation
  * @copyright 2013 Drew Phillips
  * @author Drew Phillips <drew@drew-phillips.com>
-  * @version 3.5.1 (June 21, 2013)
+ * @version 3.5.1 (June 21, 2013)
  * @package Securimage
  *
  */
-
 // Remove the "//" from the following line for debugging problems
 // error_reporting(E_ALL); ini_set('display_errors', 1);
 
@@ -52,7 +51,6 @@ require_once dirname(__FILE__) . '/securimage.php';
 $img = new Securimage();
 
 // You can customize the image by making changes below, some examples are included - remove the "//" to uncomment
-
 //$img->ttf_file        = './Quiff.ttf';
 //$img->captcha_type    = Securimage::SI_CAPTCHA_MATHEMATIC; // show a simple math problem instead of text
 //$img->case_sensitive  = true;                              // true to use case sensitve codes - not recommended
@@ -67,7 +65,6 @@ $img = new Securimage();
 //$img->signature_color = new Securimage_Color(rand(0, 64),
 //                                             rand(64, 128),
 //                                             rand(128, 255));  // random signature color
-
 // see securimage.php for more options that can be set
 
 
@@ -75,3 +72,4 @@ $img = new Securimage();
 $img->show();  // outputs the image and content headers to the browser
 // alternate use:
 // $img->show('/path/to/background_image.jpg');
+?>

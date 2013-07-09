@@ -2166,3 +2166,5 @@ class Securimage_Color {
   }
 
 }
+
+?>
