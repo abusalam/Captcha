@@ -150,7 +150,7 @@
   - Added ability to choose image type for output
 
  */
-include ('config.inc.php');
+require_once 'config.inc.php';
 
 /**
  * Securimage CAPTCHA Class.
